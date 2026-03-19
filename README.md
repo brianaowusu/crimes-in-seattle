@@ -56,6 +56,8 @@ The project combines data cleaning, exploratory data analysis (EDA), and geospat
 
 > Geospatial mapping highlights clear urban hotspots
 
+## Interactive Crime Heatmap
+Download and open "[seattle_crime_heatmap.html](file:///Users/bri/Downloads/crimes-in-seattle/seattle_crime_heatmap.html)" and "[caphill_crime_heatmap.html]"file:///Users/bri/Downloads/crimes-in-seattle/caphill_crime_heatmap.html to view the full interactive maps.
 
 ## 🚀 How to Run the Project
 
