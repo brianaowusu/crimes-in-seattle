@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Seattle-Crimes-GIS
 =======
 # Seattle Crimes in 2025 
@@ -8,7 +7,7 @@ The project combines data cleaning, exploratory data analysis (EDA), and geospat
 
 
 
-📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 1. Crime Category Distribution
 
 Visualized frequency of crime types using count plots
@@ -29,7 +28,8 @@ Analyzed monthly crime trends from 2015–2025
 
 Used time series resampling to observe long-term patterns
 
-🗺️ Geospatial Analysis (GIS)
+
+## 🗺️ Geospatial Analysis (GIS)
 Capitol Hill Crime Heatmap
 
 Focused on Capitol Hill, identified as a high-crime neighborhood
@@ -47,7 +47,7 @@ Used Folium HeatMap to identify hotspots
 Centered map on Seattle coordinates
 
 
-🔍Key Insights
+## 🔍 Key Insights
 
 Certain neighborhoods consistently show higher crime density
 
@@ -57,26 +57,27 @@ Long-term trends reveal fluctuations in crime rates over time
 
 Geospatial mapping highlights clear urban hotspots
 
-🚀 How to Run the Project
 
-Clone the repository:
+## 🚀 How to Run the Project
+
+1. Clone the repository:
 
 git clone https://github.com/brianaowusu/Seattle-Crimes-GIS
 cd Seattle-Crimes-GIS
 
-Install dependencies:
+2. Install dependencies:
 
 pip install pandas numpy seaborn matplotlib folium pandas-profiling
 
-Update dataset path in the notebook:
+3. Update dataset path in the notebook:
 
 pd.read_csv("/Users/bri/Downloads/seattle-crimes/Seattle-Crimes-GIS/SPD_Crime_Data__2008-Present_20260317.csv")
 
-Run the Jupyter Notebook:
+4. Run the Jupyter Notebook:
 
 jupyter notebook
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Build a predictive model for crime forecasting
 
@@ -87,10 +88,6 @@ Integrate real-time data pipelines (AWS, APIs)
 Combine with demographic datasets for deeper insights
 
 ## License
-<<<<<<< HEAD
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
->>>>>>> cd25f7a (changes to readme.md)
-=======
 <!--
  Copyright 2026 brianaowusu
  
