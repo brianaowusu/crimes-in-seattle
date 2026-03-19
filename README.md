@@ -5,6 +5,8 @@ This project analyzes crime data from Seattle using Python to uncover trends, pa
 
 The project combines data cleaning, exploratory data analysis (EDA), and geospatial visualization (GIS) to better understand crime distribution across neighborhoods.
 
+## Interactive Crime Heatmap
+Download and open [seattle_crime_heatmap.html](https://brianaowusu.github.io/seattle-crime-heatmap/seattle_crime_heatmap.html)  and [caphill_crime_heatmap.html](https://brianaowusu.github.io/cap_hill_heatmap/caphill_crime_heatmap.html) to view the full interactive maps.
 
 ## 📊 Exploratory Data Analysis (EDA)
 1. Crime Category Distribution
@@ -55,9 +57,6 @@ The project combines data cleaning, exploratory data analysis (EDA), and geospat
 > Long-term trends reveal fluctuations in crime rates over time
 
 > Geospatial mapping highlights clear urban hotspots
-
-## Interactive Crime Heatmap
-Download and open [seattle_crime_heatmap.html] (file:///Users/bri/Downloads/crimes-in-seattle/seattle_crime_heatmap.html) and [caphill_crime_heatmap.html] (file:///Users/bri/Downloads/crimes-in-seattle/caphill_crime_heatmap.html) to view the full interactive maps.
 
 ## 🚀 How to Run the Project
 
