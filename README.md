@@ -6,86 +6,85 @@ This project analyzes crime data from Seattle using Python to uncover trends, pa
 The project combines data cleaning, exploratory data analysis (EDA), and geospatial visualization (GIS) to better understand crime distribution across neighborhoods.
 
 
-
 ## 📊 Exploratory Data Analysis (EDA)
 1. Crime Category Distribution
 
-Visualized frequency of crime types using count plots
+> Visualized frequency of crime types using count plots
 
-Identified most common offense subcategories
+> Identified most common offense subcategories
 
 2. Crime by Neighborhood
 
-Created stacked bar charts showing:
+> Created stacked bar charts showing:
 
-Crime types per neighborhood
+> Crime types per neighborhood
 
-Highlighted areas with higher crime concentration
+> Highlighted areas with higher crime concentration
 
 3. Crime Trends Over Time
 
-Analyzed monthly crime trends from 2015–2025
+> Analyzed monthly crime trends from 2015–2025
 
-Used time series resampling to observe long-term patterns
+> Used time series resampling to observe long-term patterns
 
 
 ## 🗺️ Geospatial Analysis (GIS)
-Capitol Hill Crime Heatmap
+> Capitol Hill Crime Heatmap
 
-Focused on Capitol Hill, identified as a high-crime neighborhood
+> Focused on Capitol Hill, identified as a high-crime neighborhood
 
-Generated a heatmap using latitude and longitude data
+> Generated a heatmap using latitude and longitude data
 
-Added markers to highlight specific incidents
+> Added markers to highlight specific incidents
 
-Seattle-Wide Crime Heatmap
+> Seattle-Wide Crime Heatmap
 
-Visualized crime distribution across the entire city
+> Visualized crime distribution across the entire city
 
-Used Folium HeatMap to identify hotspots
+> Used Folium HeatMap to identify hotspots
 
-Centered map on Seattle coordinates
+> Centered map on Seattle coordinates
 
 
 ## 🔍 Key Insights
 
-Certain neighborhoods consistently show higher crime density
+> Certain neighborhoods consistently show higher crime density
 
-Crime types vary significantly by location
+> Crime types vary significantly by location
 
-Long-term trends reveal fluctuations in crime rates over time
+> Long-term trends reveal fluctuations in crime rates over time
 
-Geospatial mapping highlights clear urban hotspots
+> Geospatial mapping highlights clear urban hotspots
 
 
 ## 🚀 How to Run the Project
 
 1. Clone the repository:
 
-git clone https://github.com/brianaowusu/Seattle-Crimes-GIS
-cd Seattle-Crimes-GIS
+> git clone https://github.com/brianaowusu/Seattle-Crimes-GIS
+> cd Seattle-Crimes-GIS
 
 2. Install dependencies:
 
-pip install pandas numpy seaborn matplotlib folium pandas-profiling
+> pip install pandas numpy seaborn matplotlib folium pandas-profiling
 
 3. Update dataset path in the notebook:
 
-pd.read_csv("/Users/bri/Downloads/seattle-crimes/Seattle-Crimes-GIS/SPD_Crime_Data__2008-Present_20260317.csv")
+> pd.read_csv("/Users/bri/Downloads/seattle-crimes/Seattle-Crimes-GIS/SPD_Crime_Data__2008-Present_20260317.csv")
 
 4. Run the Jupyter Notebook:
 
-jupyter notebook
+> jupyter notebook
 
 ## 🔮 Future Improvements
 
-Build a predictive model for crime forecasting
+> Build a predictive model for crime forecasting
 
-Deploy an interactive dashboard (Plotly Dash / Tableau)
+> Deploy an interactive dashboard (Plotly Dash / Tableau)
 
-Integrate real-time data pipelines (AWS, APIs)
+> Integrate real-time data pipelines (AWS, APIs)
 
-Combine with demographic datasets for deeper insights
+> Combine with demographic datasets for deeper insights
 
 ## License
 <!--
